@@ -12,9 +12,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
+        
+        
+        
     }
-
-
+    
+   
+    
+    @objc func hideKeyboard(){
+        view.endEditing(true)
+    }
+    
+    @objc func addButtonClicked(){
+        performSegue(withIdentifier: "ToDetailsVC", sender: nil)
+    }
 }
 

@@ -13,6 +13,7 @@
 		FB9E55942332A2BB008F973E /* ArtGalleryNew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9E55922332A2BB008F973E /* ArtGalleryNew.xcdatamodeld */; };
 		FB9E55962332A2D2008F973E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9E55952332A2D2008F973E /* Assets.xcassets */; };
 		FB9E55992332A2D2008F973E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9E55972332A2D2008F973E /* LaunchScreen.storyboard */; };
+		FB9E55A12332B946008F973E /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E55A02332B946008F973E /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB9E55952332A2D2008F973E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9E55982332A2D2008F973E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9E559A2332A2D2008F973E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9E55A02332B946008F973E /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FB9E558B2332A2BB008F973E /* AppDelegate.swift */,
 				FB9E558D2332A2BB008F973E /* ViewController.swift */,
+				FB9E55A02332B946008F973E /* DetailsVC.swift */,
 				FB9E558F2332A2BB008F973E /* Main.storyboard */,
 				FB9E55952332A2D2008F973E /* Assets.xcassets */,
 				FB9E55972332A2D2008F973E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9E558E2332A2BB008F973E /* ViewController.swift in Sources */,
+				FB9E55A12332B946008F973E /* DetailsVC.swift in Sources */,
 				FB9E55942332A2BB008F973E /* ArtGalleryNew.xcdatamodeld in Sources */,
 				FB9E558C2332A2BB008F973E /* AppDelegate.swift in Sources */,
 			);
